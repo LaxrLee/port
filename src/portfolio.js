@@ -5,10 +5,10 @@ import emoji from "react-easy-emoji";
 // Your Summary And Greeting Section
 
 const greeting = {
-  username: "Bharat Kammakatla",
-  title: "Hi all, I'm Bharat",
+  username: "Stanley Gathagu",
+  title: "Hi all, I am Stanley",
   subTitle: emoji(
-    "Front End Developer 👨‍💻 | Test Automation Engineer 🤖 | Tech Writer ✍️ "
+    "Developer 👨‍💻 | Test Automation Engineer 🤖 | Analyst ✍️ "
   ),
   resumeLink:
     "https://drive.google.com/file/d/1gsPhoU4Dg-bFSlf3K-SFrKHO0XTBpS0i/view?usp=sharing",
@@ -17,11 +17,11 @@ const greeting = {
 // Your Social Media Link
 
 const socialMediaLinks = {
-  github: "https://github.com/bharatkammakatla",
-  linkedin: "https://www.linkedin.com/in/bharatkammakatla",
-  gmail: "bharatkammakatla@gmail.com",
-  facebook: "https://www.facebook.com/bharat.kammakatla",
-  twitter: "https://twitter.com/Bharat__K",
+  github: "https://github.com/LaxrLee ",
+  linkedin: "https://www.linkedin.com/in/sttanleygathagu",
+  gmail: "stanngathagu@gmail.com",
+  // facebook: "https://www.facebook.com/bharat.kammakatla",
+  twitter: "https://twitter.com/LeeLaxr",
 };
 
 // Your Skills Section
@@ -65,13 +65,13 @@ const skillsSection = {
         color: "#61DAFB",
       },
     },
-    {
-      skillName: "maven",
-      classname: "vscode-icons:file-type-maven",
-      style: {
-        backgroundColor: "transparent",
-      },
-    },
+    // {
+    //   skillName: "maven",
+    //   classname: "vscode-icons:file-type-maven",
+    //   style: {
+    //     backgroundColor: "transparent",
+    //   },
+    // },
     {
       skillName: "git",
       classname: "logos:git-icon",
@@ -79,13 +79,13 @@ const skillsSection = {
         backgroundColor: "transparent",
       },
     },
-    {
-      skillName: "jenkins",
-      classname: "vscode-icons:file-type-jenkins",
-      style: {
-        backgroundColor: "transparent",
-      },
-    },
+    // {
+    //   skillName: "jenkins",
+    //   classname: "vscode-icons:file-type-jenkins",
+    //   style: {
+    //     backgroundColor: "transparent",
+    //   },
+    // },
     {
       skillName: "postgres",
       classname: "logos:postgresql",
@@ -108,51 +108,51 @@ const skillsSection = {
         color: "#D00000",
       },
     },
-    {
-      skillName: "flask",
-      classname: "simple-icons:flask",
-      style: {
-        backgroundColor: "transparent",
-      },
-    },
+    // {
+    //   skillName: "flask",
+    //   classname: "simple-icons:flask",
+    //   style: {
+    //     backgroundColor: "transparent",
+    //   },
+    // },
   ],
 };
 
 // Your top 3 work experiences
 
-const workExperiences = {
-  viewExperiences: false, //Set it to true to show workExperiences Section
-  experience: [
-    {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      ],
-    },
-    {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    },
-  ],
-};
+// const workExperiences = {
+//   viewExperiences: false, //Set it to true to show workExperiences Section
+//   experience: [
+//     {
+//       role: "Software Engineer",
+//       company: "Facebook",
+//       companylogo: require("./assets/images/facebookLogo.png"),
+//       date: "June 2018 – Present",
+//       desc:
+//         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+//       descBullets: [
+//         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+//         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+//       ],
+//     },
+//     {
+//       role: "Front-End Developer",
+//       company: "Quora",
+//       companylogo: require("./assets/images/quoraLogo.png"),
+//       date: "May 2017 – May 2018",
+//       desc:
+//         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+//     },
+//     {
+//       role: "Software Engineer Intern",
+//       company: "Airbnb",
+//       companylogo: require("./assets/images/airbnbLogo.png"),
+//       date: "Jan 2015 – Sep 2015",
+//       desc:
+//         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+//     },
+//   ],
+// };
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
@@ -166,15 +166,15 @@ const openSource = {
 
 const certifications = {
   certifications: [
-    {
-      title: "Selenium",
-      subtitle: "- Vskills",
-      logo_path: "vskills-logo.png",
-      certificate_link:
-        "https://www.vskills.in/certification/40215-certified-selenium-professional-bharat-babu-kammakatla",
-      alt_name: "Vskills",
-      color_code: "#F6EAEA",
-    },
+    // {
+    //   title: "Selenium",
+    //   subtitle: "- Vskills",
+    //   logo_path: "vskills-logo.png",
+    //   certificate_link:
+    //     "https://www.vskills.in/certification/40215-certified-selenium-professional-bharat-babu-kammakatla",
+    //   alt_name: "Vskills",
+    //   color_code: "#F6EAEA",
+    // },
     {
       title: "Cloud Admin & Automation",
       subtitle: "- Experitest",
@@ -266,8 +266,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+852 51606863",
-  email_address: "bharatkammakatla@gmail.com",
+  // number: "+852 51606863",
+  email_address: "stanngathagu@gmail.com",
 };
 
 export {
